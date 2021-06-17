@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM</title>
+
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+        ul{
+            list-style: none;
+            margin: 0%;
+            padding: 0%;
+            overflow: hidden;
+         background-color: slategrey;
+        }
+         li{
+             float: left;
+            }
+         li a{
+             display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-family: cursive;
+            font-size: 30px;
+         }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a  href="index.html">Index</a></li>
+        <li><a class="active" href="About.html">About</a></li>
+        <li><a href="form.html">form</a></li>
+        <li><a href="Requirements platform.html">Requirements platform</a></li>
+        <li><a href="CCMA.html">CCMA</a></li>
+       </ul>  
+        <h1>EmploymentApplicaton</h1>
+        <form method="POST" action="mailto:dineochain19@gmail.com">
+            <div class="field name">
+                <label for="fullaname">Fullname:</label><br>
+                <input class="text" class="fullname" placeholder="Name">
+            </div>
+            <div class="field name">
+                <label for="Surname">Surname</label><br>
+         <input class="text" class="fullname" placeholder="Surname">
+            </div>
+            <div class="field">
+                <label for="Email">Email</label><br>
+                <input class="text" class="email-input" placeholder="Email">
+            </div>
+            <div class="field name">
+                <label for="Position you are applying for">Position you are applying for</label><br>
+            <input class="text" class="Position input" placeholder="Position">
+            </div>
+            <div>
+            <label for="Salary requiments">Salary requiments</label>
+            <input class="text" class="salary" placeholder="Salary">
+            <label for="When you started">When you started</label>
+            <input class="text" class="When you started" placeholder="When you started">
+            </div>
+            <div>
+            <label for="Phone">Phone</label>
+            <input class="text" class="Phone" placeholder="Phone">
+                    <label for="Fax">Fax</label>
+                    <input class="text" class="Fax"  placeholder="Fax"><br>
+                    <Label for="Are you willing to relocate">Are you willing to relocate</Label><br>
+                    <input type="radio" id="yes" name="yes" value="yes">
+                    <label for="Yes">Yes</label><br>
+                    <input type="radio" id="no" name="yes" value="Yes">
+                    <label for="No">No</label><br>
+                    <input type="radio" id="not sure" name="Not sure" value="not sure">
+                    <label for="Not sure">Not sure</label><br>
+                    <label for="Last Company you worked in">Last company you worked in</label><br>
+                    <input class="text" class="last company you worked in" placeholder=""><br>
+            <label for="Refrence/comment/Questions">Refrence/Comments/Questions</label><br>
+            <div class="field textarea">
+                        <textarea class="message" cols="30" rows="10" placeholder="message.."></textarea>
+                <div class="Cv editer"> 
+                <form action="/action_page.php">
+                <input type="file" id="myfile" name="filename"><br>
+                <br>
+                <input type="submit">
+                </div>
+
+            </form>
+
+    
+</body>
+</html>
